@@ -1,4 +1,4 @@
-version: STSv1\
-mode: enforce\
-mx: *.livalittle.com\
-max_age: 86400}
+version: STSv1
+mode: enforce
+mx: *.livalittle.com
+max_age: 86400
