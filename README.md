@@ -23,17 +23,21 @@ When a mail server sends email to @livalittle.com, it:
 ```
 livalittle/
 ├── .well-known/
-│   └── mta-sts.txt          # MTA-STS policy file (RFC 8461 compliant)
-├── .nojekyll                 # GitHub Pages configuration
-├── README.md                 # This file
-├── SETUP.md                  # Deployment and configuration guide
-├── MTA-STS-GUIDE.md         # Detailed MTA-STS protocol documentation
-├── DNS-CONFIGURATION.md      # DNS setup instructions
-├── TROUBLESHOOTING.md        # Common issues and solutions
-├── TESTING.md                # How to test and validate the policy
-├── CHANGELOG.md              # Version history
-├── CONTRIBUTING.md           # Contribution guidelines
-└── LICENSE                   # License information
+│   └── mta-sts.txt           # MTA-STS policy file (RFC 8461 compliant)
+├── .nojekyll                  # GitHub Pages configuration
+├── README.md                  # This file
+├── SETUP.md                   # Deployment and configuration guide
+├── ARCHITECTURE.md            # System architecture and design
+├── HOW-IT-WORKS.md            # Functional explanation of the system
+├── DEPLOYMENT-FLOW.md         # Deployment processes and workflows
+├── API-REFERENCE.md           # Policy file API specification
+├── MTA-STS-GUIDE.md          # Detailed MTA-STS protocol documentation
+├── DNS-CONFIGURATION.md       # DNS setup instructions
+├── TROUBLESHOOTING.md         # Common issues and solutions
+├── TESTING.md                 # How to test and validate the policy
+├── CHANGELOG.md               # Version history
+├── CONTRIBUTING.md            # Contribution guidelines
+└── LICENSE                    # License information
 ```
 
 ## Current Policy
@@ -82,13 +86,26 @@ See [SETUP.md](SETUP.md) for detailed instructions.
 
 ## Documentation
 
+### Getting Started
 | Document | Description |
 |----------|-------------|
 | [SETUP.md](SETUP.md) | Complete deployment and configuration guide |
+| [HOW-IT-WORKS.md](HOW-IT-WORKS.md) | How the system works (functional explanation) |
 | [MTA-STS-GUIDE.md](MTA-STS-GUIDE.md) | In-depth explanation of MTA-STS protocol |
+
+### Technical Reference
+| Document | Description |
+|----------|-------------|
+| [ARCHITECTURE.md](ARCHITECTURE.md) | System architecture and component design |
+| [API-REFERENCE.md](API-REFERENCE.md) | Complete API specification for policy file |
+| [DEPLOYMENT-FLOW.md](DEPLOYMENT-FLOW.md) | Deployment workflows and processes |
 | [DNS-CONFIGURATION.md](DNS-CONFIGURATION.md) | DNS record setup and management |
-| [TROUBLESHOOTING.md](TROUBLESHOOTING.md) | Common issues and debugging |
+
+### Operations
+| Document | Description |
+|----------|-------------|
 | [TESTING.md](TESTING.md) | Validation and testing procedures |
+| [TROUBLESHOOTING.md](TROUBLESHOOTING.md) | Common issues and debugging |
 | [CHANGELOG.md](CHANGELOG.md) | Version history and updates |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute to this repository |
 
